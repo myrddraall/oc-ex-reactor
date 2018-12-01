@@ -1,6 +1,6 @@
 {
     "name": "oc-ex-reactor",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "githubrepo": "myrddraall/oc-ex-reactor",
     "description": "",
     "packageDependancies":{
@@ -11,6 +11,6 @@
     "install": {
         "lib/oc-ex-reactor/": "lib/oc-ex-reactor/*",
         "/bin/": "bin/*",
-        "/etc/rc.d": "rc.d/*"
+        "/etc/rc.d/": "rc.d/*"
     }
 }
