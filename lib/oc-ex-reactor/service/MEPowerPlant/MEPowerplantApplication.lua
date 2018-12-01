@@ -78,7 +78,7 @@ function MEPowerplantApplication:_initTurbines(parent)
     self.turbineControllers = {};
     self.turbineElements = {};
     local c = 0;
-    for i=1, 18 do
+    --for i=1, 18 do
     for address, _ in pairs(list) do
         local control = TurbineControl:new(address);
         table.insert(self.turbineControllers, control);
@@ -99,7 +99,7 @@ function MEPowerplantApplication:_initTurbines(parent)
         table.insert(self.turbineElements, elm);
         parent:addChild(elm);
         c = c + 1;
-    end
+ --   end
     end
 end
 
